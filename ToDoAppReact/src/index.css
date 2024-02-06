@@ -1,0 +1,53 @@
+:root {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  background-color: #242424;
+  color: whitesmoke;
+  margin: 10px;
+}
+#item{
+  background-color: rgb(130, 111, 148);
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.subbtn{
+  width: 100.5%;
+  padding: 5px;
+  border: 3px solid rgb(130, 111, 148);
+  background-color: rgb(44, 40, 54);
+  border-radius: 8px;
+  margin-bottom: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.subbtn:hover{
+  background-color: rgb(130, 111, 148);
+  border: 3px solid rgb(44, 40, 54);
+  color: #242424;
+}
+label{
+  font-size: 1.5em;
+}
+li{
+  list-style-type: none;
+}
+.btn{
+  margin-left: 5px;
+  padding: 5px;
+  color: red;
+  border: 2px solid red;
+  background-color: rgb(44, 40, 54);
+  transform: translateY(-2px);
+  transition: all 0.5s;
+}
+.btn:hover{
+  background-color: red;
+  border: 2px solid rgb(44, 40, 54);
+  color: rgb(44, 40, 54);
+}
+.checked{
+  margin-right: 6px;
+}
